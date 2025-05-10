@@ -4,9 +4,10 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: sans-serif;
   color: black;
-  background-image: url('https://drive.google.com/file/d/1zaqeZ1JphEBxoHv3GLWdf5fXun8tSCTc/view');
+  background-image: url('img/background.jpg');
+  background-size:cover;
 }
 
 .container {
@@ -14,7 +15,81 @@ body {
   justify-content: space-between;
   margin: 53px 100px;
 }
+.container a{
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+.logo img{
+  width: 50px;
+  height: 50px;
+}
+.main {
+  margin: 0 100px;
 
-main {
-  padding: 1rem;
+}
+.desc{
+  height: 86px;
+  margin: 64px 0;
+}
+.desc p{
+  font-family: Rancho;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-top: 5px solid white;
+  padding: 50px 0;
+  border-bottom: 5px solid white;
+}
+.content2{
+  height: 221px;
+  background-color: white;
+  border: 5px solid rgba(43, 87, 167, 1);
+  border-radius: 10px;
+  color: rgba(239, 104, 7, 1);
+  padding: 0 64px;
+}
+.content2 p, ol li{
+  font-size: 25px;
+}
+.content3{
+  height: 221px;
+  background-color: white;
+  border: 5px solid rgba(239, 104, 7, 1);
+  border-radius: 10px;
+  color: rgba(43, 87, 167, 1);
+  padding: 0 64px;
+}
+.content3 p, ul li{
+  font-size: 25px;
+}
+button{
+  height: 60px;
+  background-color: rgba(239, 104, 7, 1);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+
+  border: none;
+}
+button a{
+  text-decoration: none;
+  color: white;
+}
+footer{
+  display:flex;
+  margin: 30px 0 100px 0;
+  color: white;
+  font-size: 25px;
+}
+footer label{
+  margin:auto;
+
 }
